@@ -1,5 +1,6 @@
 ﻿#include <iostream>
 #include <string>
+#include <windows.h>
 
 int main()
 {
@@ -14,6 +15,7 @@ int main()
         str_2.resize(str.size());
         str_2[i] = str[i];
         std::cout << (str_2)<<std::endl;
+        Sleep(500);
     }
     
 }
