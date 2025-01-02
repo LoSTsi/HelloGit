@@ -1,11 +1,19 @@
-﻿
-#include <iostream>
+﻿#include <iostream>
+#include <string>
 
 int main()
 {
+    std::string str = "Hello Git!";
+    std::string str_2="";
     for (int i = 0; i < 5; i++)
     {
-        std::cout << "Hello Git!\n";
+        std::cout << str << std::endl;
     }
-   
+    for (int i = 0; i < str.size(); i++)
+    {
+        str_2.resize(str.size());
+        str_2[i] = str[i];
+        std::cout << (str_2)<<std::endl;
+    }
+    
 }
