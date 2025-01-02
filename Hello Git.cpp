@@ -3,5 +3,9 @@
 
 int main()
 {
-    std::cout << "Hello Git!\n";
+    for (int i = 0; i < 5; i++)
+    {
+        std::cout << "Hello Git!\n";
+    }
+   
 }
